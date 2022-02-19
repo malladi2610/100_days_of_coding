@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+int i = 65;
+char c = i;  //implicit type casting
+cout<<c<<endl;
+
+int *p = &i;
+char * pc = (char * )p; //explicit type casting
+cout<< *p<<endl;
+cout<<*pc<<endl;
+cout<<*(pc+1)<<endl;
+cout<<*(pc+2)<<endl;
+cout<<*(pc+3)<<endl;
+}
