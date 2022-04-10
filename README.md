@@ -1,2 +1,2 @@
 # 100_days_of_coding
-To learn advanced concepts of C++ and Data structures and algorithm
+This repository contains the programs to practice data structures and algorithm in c++
